@@ -45,7 +45,7 @@ public class SudokuSolver {
 				return false;
 			} 
 			
-			// set the board value to the value
+			// set the board value to the valid value
 			board[col + row*9] = value;	
 			// find the coords of an empty board space
 			coords = findEmpty(board);
